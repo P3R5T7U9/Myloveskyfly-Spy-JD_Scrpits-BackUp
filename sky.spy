@@ -1,0 +1,10 @@
+js_config:
+- Container:
+  - []
+  Env: LUCK_DRAW_URL
+  KeyWord:
+  - - M_WX_LUCK_DRAW_URL
+  Name: FK-KR店铺抽奖 · 超级无线
+  Script: KingRan_KR/jd_zdjr.js
+  TimeOut: 0
+  Wait: 5
