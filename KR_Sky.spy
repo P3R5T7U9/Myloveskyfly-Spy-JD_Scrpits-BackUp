@@ -37,6 +37,15 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_completeInfoActivity_activityId|jd_completeInfoActivity_venderId
+  KeyWord:
+  - - jd_completeInfoActivity_activityId|jd_completeInfoActivity_venderId
+  Name: 【KR】完善信息有礼 · 超级无线&jd_completeInfoActivity.js
+  Script: KingRan_KR/jd_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
