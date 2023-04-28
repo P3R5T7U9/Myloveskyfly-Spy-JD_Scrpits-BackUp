@@ -592,6 +592,17 @@ let RspyList = {
             Disable: false,
         },
         {
+            Name: '【KR】购物车锦鲤-垃圾活动放弃',
+            Script: 'KingRan_KR/888.js',
+            ListenEnv: [
+                'jd_wxCartKoi_activityId',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
             Name: '【船长】生日礼包/会员等级礼包&jd_wxBirthGifts.py',
             Script: 'HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py',
             ListenEnv: [
