@@ -115,8 +115,7 @@ let RspyList = {
                 'wxFansInterActionActivity',
             ],
             SetEnv: {
-                jd_wxFansInterActionActivity_activityId: 'M_FANS_RED_PACKET_URL',
-                jd_task_fshd_custom: 'M_FANS_RED_PACKET_URL',
+                wxFansInterActionActivity: 'M_FANS_RED_PACKET_URL',
             },
             TimeOut: 30,
             Interval: 10,
@@ -494,6 +493,98 @@ let RspyList = {
             Script: 'KingRan_KR/jd_sevenDayjk.js',
             ListenEnv: [
                 'jd_sevenDay_activityUrl',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】微定制瓜分福袋&jd_wdzfd.js',
+            Script: 'KingRan_KR/jd_wdzfd.js',
+            ListenEnv: [
+                'jd_wdzfd_activityId',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】粉丝互动红包&jd_wxFansInterActionActivity.js',
+            Script: 'KingRan_KR/jd_wxFansInterActionActivity.js',
+            ListenEnv: [
+                'jd_wxFansInterActionActivity_activityId',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】JoyJD任务&jd_joyjd_open.js',
+            Script: 'KingRan_KR/jd_joyjd_open.js',
+            ListenEnv: [
+                'comm_activityIDList',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】LZ让福袋飞&jd_wxUnPackingActivity.js',
+            Script: 'KingRan_KR/jd_wxUnPackingActivity.js',
+            ListenEnv: [
+                'jd_wxUnPackingActivity_activityId',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】CJ完善信息有礼&jd_completeInfoActivity.js',
+            Script: 'KingRan_KR/jd_completeInfoActivity.js',
+            ListenEnv: [
+                'jd_completeInfoActivity_activityId',
+            ],
+            SetEnv: {
+                jd_completeInfoActivity_activityId: 'jd_completeInfoActivity_activityId',
+                jd_completeInfoActivity_venderId: 'jd_completeInfoActivity_venderId',
+            },
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】cjhy每日抢&jd_cjdaily.js',
+            Script: 'KingRan_KR/jd_cjdaily.js',
+            ListenEnv: [
+                'jd_cjdaily_activityId',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】CJ开卡入会有礼&jd_OpenCard_Force.js',
+            Script: 'KingRan_KR/jd_OpenCard_Force.js',
+            ListenEnv: [
+                'VENDER_ID',
+            ],
+            TimeOut: 30,
+            Interval: 10,
+            RunPanel: [0],
+            Disable: false,
+        },
+        {
+            Name: '【KR】店铺抽奖（超级无线欧莱雅）&jd_lzkj_loreal_draw.js',
+            Script: 'KingRan_KR/jd_lzkj_loreal_draw.js',
+            ListenEnv: [
+                'jd_lzkj_loreal_draw_url',
             ],
             TimeOut: 30,
             Interval: 10,
