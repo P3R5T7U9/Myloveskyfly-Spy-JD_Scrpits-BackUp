@@ -435,7 +435,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【KR开卡】粉丝互动通用活动&jd_wxFansInterActionActivity.js,
+            Name: '【KR开卡】粉丝互动通用活动&jd_wxFansInterActionActivity.js',
             Script: 'myloveskyfly_KR_KK/jd_wxFansInterActionActivity.js',
             ListenEnv: [
                 'jd_wxFansInterActionActivity_activityId',
@@ -446,7 +446,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【KR开卡】分享有礼 · 超级无线&jd_wxShareActivity.js,
+            Name: '【KR开卡】分享有礼 · 超级无线&jd_wxShareActivity.js',
             Script: 'myloveskyfly_KR_KK/jd_wxShareActivity.js',
             ListenEnv: [
                 'jd_wxShareActivity_activityId',
@@ -457,7 +457,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【KR开卡】店铺抽奖中心 · 老虎机&jd_drawCenter.js,
+            Name: '【KR开卡】店铺抽奖中心 · 老虎机&jd_drawCenter.js',
             Script: 'myloveskyfly_KR_KK/jd_drawCenter.js',
             ListenEnv: [
                 'jd_drawCenter_activityId',
@@ -468,7 +468,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【KR开卡】集卡抽奖通用&jd_wxCollectCard.js,
+            Name: '【KR开卡】集卡抽奖通用&jd_wxCollectCard.js',
             Script: 'myloveskyfly_KR_KK/jd_wxCollectCard.js',
             ListenEnv: [
                 'jd_wxCollectCard_activityId',
@@ -479,7 +479,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【KR开卡】店铺左侧刮刮乐&jd_shopDraw.js,
+            Name: '【KR开卡】店铺左侧刮刮乐&jd_shopDraw.js',
             Script: 'myloveskyfly_KR_KK/jd_shopDraw.js',
             ListenEnv: [
                 'jd_shopDraw_activityUrl',
@@ -490,7 +490,7 @@ let RspyList = {
             Disable: false,
         },
         {
-            Name: '【船长】生日礼包/会员等级礼包&jd_wxBirthGifts.py,
+            Name: '【船长】生日礼包/会员等级礼包&jd_wxBirthGifts.py',
             Script: 'HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py',
             ListenEnv: [
                 'jd_wxMcLevelAndBirthGifts_activityId',
